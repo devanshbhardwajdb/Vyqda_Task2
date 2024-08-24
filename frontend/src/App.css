@@ -1,0 +1,78 @@
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #2f4f4f;
+  color: #fff;
+  min-height: 88vh;
+}
+.heading{
+  text-align: center;
+  background: #020234;
+  margin: 0;
+  color:#fff;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  outline: none;
+}
+textarea:focus{
+  border: 2px solid #4CAF50;  
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.notes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.note-card {
+  background-color: #eee;
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  position: relative;
+}
+
+.note-card p {
+  margin: 0;
+}
+
+.note-card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.delete_btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  filter: invert();
+  background-color: #403c3c;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+}
+
+
